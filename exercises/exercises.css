@@ -1,0 +1,133 @@
+/* FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;700&display=swap');
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #121619;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #121619;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: 1px solid #00BF63;
+}
+
+.logo {
+    width: 180px;
+}
+
+header nav ul {
+    display: flex;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #00BF63;
+}
+
+header nav ul li a:hover {
+    color: #00ff84;
+}
+
+.int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: #121619;
+    color: #fff;
+}
+
+.int h1 {
+    color: #00BF63;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+.int p {
+    width: 800px;
+    text-align: center;
+    font-size: .9rem;
+}
+
+section {
+    background-color: #1E2327;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 30px 70px;
+}
+
+section:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+section ol {
+    margin: 1rem 3rem 0;
+}
+
+.dc {
+    color: #00BF63;
+}
+
+/* footer */
+footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid #00ff84;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem;
+    color: #00BF63;
+    gap: 1rem;
+}
+
+footer form input, textarea {
+    padding: .5rem;
+    border: none;
+    border-radius: .4rem;
+    outline: 0;
+}
+
+footer input[type="button"] {
+    background-color: #00BF63;
+    color: #fff;
+}
+
+footer input[type="button"]:hover {
+    background-color: #057e43;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#rights {
+    margin: 0 auto;
+    font-weight: bold;
+}
