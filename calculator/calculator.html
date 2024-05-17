@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="calculator.css">
+    <!-- JS -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <a href="../homepage/index.html"><img src="../img/OctoFund.svg" class="logo" alt="Logo OctoFund"></a>
+
+            <nav>
+                <ul>
+                    <li><a href="../homepage/index.html">Home</a></li>
+                    <li><a href="../calculator/calculator.html">Calculadora</a></li>
+                    <li><a href="../exercises/exercises.html">Exercícios</a></li>
+                    <li><a href="../about/about.html">Sobre nós</a></li>
+                    <li><a href="mailto:lac4@cesar.school">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div id="box-change">
+            <div id="octal-toggle">
+                <p>Octal-Decimal</p>
+            </div>
+
+            <div id="decimal-toggle">
+                <p>Decimal-Octal</p>
+            </div>
+        </div>
+
+        <div id="octal-container">
+            <h2>Conversor Octal-Decimal</h2>
+
+            <div class="input">
+                <label for="octal">Octal:</label>
+                <input type="text" name="octal" id="octal" placeholder="Insira um número octal">
+                <input class="octal-btn" type="button" value="Calcular">
+            </div>
+
+            <div id="octal-result">
+                <p>Seu resultado: <span></span></p>
+            </div>
+        </div>
+
+        <div id="decimal-container" class="active">
+            <h2>Conversor Decimal-Octal</h2>
+
+            <div class="input">
+                <label for="decimal">Decimal:</label>
+                <input type="text" name="decimal" id="decimal" placeholder="Insira um número decimal" autocomplete="off">
+                <input class="decimal-btn" type="button" value="Calcular">
+            </div>
+
+            <div id="decimal-result">
+                <p>Seu resultado: <span></span></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
