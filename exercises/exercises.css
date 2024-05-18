@@ -87,6 +87,39 @@ section ol {
     margin: 1rem 3rem 0;
 }
 
+/* .questions {
+    background-color: red;
+} */
+
+
+.questions li {
+    text-align: center;
+    list-style: none;
+    margin: 1rem 0;
+    background-color: #00BF63;
+    padding: 0.5%;
+    max-width: 35%;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+ol li:hover {
+    cursor: pointer;
+  }
+
+#feedback {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #00BF63;
+    border-radius: 10px; 
+    border: 2px solid #ddd; 
+    max-width: 35%;
+    /* opacity: 0; */
+    display: none;
+  }
+  
+
 .dc {
     color: #00BF63;
 }

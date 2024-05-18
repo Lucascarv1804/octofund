@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Exercícios</title>
 	<link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="./exercises.css">
 </head>
 
@@ -34,15 +35,16 @@
 
 	<main>
 		<section class="q-1">
-			<h4>1. Converta os números <span class="dc">decimais</span> para o <span class="dc">sistema octal</span>:
+			<h4>1. O número <span class="dc">25</span> em <span class="dc">sistema octal</span> corresponde a:
 			</h4>
 
-			<ol type="a">
-				<li>25</li>
-				<li>63</li>
-				<li>128</li>
-				<li>512</li>
+			<ol type="a" class="questions" id="quiz">
+				<li data-correct="false">25</li>
+				<li data-correct="true">63</li>
+				<li data-correct="false">128</li>
+				<li data-correct="false">512</li>
 			</ol>
+			<div id="feedback"></div>
 		</section>
 
 		<section class="q-2">
@@ -265,6 +267,7 @@
 			<input type="button" value="Enviar">
 		</form>
 	</footer>
+	<script src="index.js" ></script>
 </body>
 
 </html>
