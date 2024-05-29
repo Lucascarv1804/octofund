@@ -79,13 +79,46 @@ section {
     padding: 30px 70px;
 }
 
-section:nth-last-child(1){
+section:nth-last-child(1) {
     margin-bottom: 0;
 }
 
 section ol {
     margin: 1rem 3rem 0;
 }
+
+/* .questions {
+    background-color: red;
+} */
+
+
+.questions li {
+    text-align: center;
+    list-style: none;
+    margin: 1rem 0;
+    background-color: #00BF63;
+    padding: 0.5%;
+    max-width: 35%;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+ol li:hover {
+    cursor: pointer;
+}
+
+#feedback {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #00BF63;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    max-width: 35%;
+    /* opacity: 0; */
+    display: none;
+}
+
 
 .dc {
     color: #00BF63;
@@ -109,7 +142,8 @@ footer form {
     gap: 1rem;
 }
 
-footer form input, textarea {
+footer form input,
+textarea {
     padding: .5rem;
     border: none;
     border-radius: .4rem;
@@ -130,4 +164,75 @@ footer input[type="button"]:hover {
 #rights {
     margin: 0 auto;
     font-weight: bold;
+}
+
+
+/* Estilos para a Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s;
+}
+
+@keyframes slideDown {
+    from {
+        top: -100%;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    background-color: #121619;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #00BF63;
+    width: 80%;
+    text-align: center;
+    animation: slideDown 0.5s;
+    position: relative;
+}
+
+.modal-content p {
+    color: white;
+    font-size: 18px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário */
+    right: 20px; /* Ajuste conforme necessário */
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #00BF63;
+    border-radius: 10%;
+    padding: 3px;
+}
+
+.close:hover,
+.close:focus {
+    color: #057e43;
+    text-decoration: none;
+    cursor: pointer;
 }

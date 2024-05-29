@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Exercícios</title>
 	<link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="./exercises.css">
 </head>
 
@@ -34,14 +35,14 @@
 
 	<main>
 		<section class="q-1">
-			<h4>1. Converta os números <span class="dc">decimais</span> para o <span class="dc">sistema octal</span>:
+			<h4>1. O número <span class="dc">25</span> em <span class="dc">sistema octal</span> corresponde a:
 			</h4>
 
-			<ol type="a">
-				<li>25</li>
-				<li>63</li>
-				<li>128</li>
-				<li>512</li>
+			<ol type="a" class="questions quiz">
+				<li data-correct="false">25</li>
+				<li data-correct="true">31</li>
+				<li data-correct="false">128</li>
+				<li data-correct="false">30</li>
 			</ol>
 		</section>
 
@@ -49,59 +50,67 @@
 			<h4>2. Converta os números do <span class="dc">sistema octal</span> para o <span class="dc">decimal</span>:
 			</h4>
 
-			<ol type="a">
-				<li>25</li>
-				<li>123</li>
-				<li>452</li>
-				<li>458</li>
+			<ol type="a" class="questions quiz">
+				<li data-correct="true">25 ➡️ 31</li>
+				<li data-correct="false">63 ➡️ 78</li>
+				<li data-correct="false">128 ➡️ 201</li>
+				<li data-correct="false">512 ➡️ 10000</li>
 			</ol>
 		</section>
 
-		<section class="q-3">
+		<section class="q-3" >
 			<h4>3. Qual é a representação octal do número decimal <span class="dc">777</span>?</h4>
 
-			<ol type="a">
-				<li>1371</li>
-				<li>1457</li>
-				<li>1411</li>
-				<li>1417</li>
+			<ol type="a" class="questions quiz">
+				<li data-correct="false">1371</li>
+				<li data-correct="false">1457</li>
+				<li data-correct="true">1411</li>
+				<li data-correct="false">1417</li>
 			</ol>
 		</section>
 
-		<section class="q-4">
-			<h4>4. Converta o número octal <span class="dc">152</span>para o sistema decimal.</h4>
+		<section class="q-4" >
+			<h4>4. Converta o número octal <span class="dc">152</span> para o sistema decimal.</h4>
 
-			<ol type="a">
-				<li>215</li>
-				<li>230</li>
-				<li>237</li>
-				<li>240</li>
+			<ol type="a" class="questions quiz">
+				<li data-correct="false">215</li>
+				<li data-correct="false">240</li>
+				<li data-correct="false">237</li>
+				<li data-correct="true">230</li>
 			</ol>
 		</section>
 
 		<section class="q-5">
 			<h4>5. Qual é o valor decimal do número octal <span class="dc">547</span>?</h4>
 
-			<ol type="a">
-				<li>355</li>
-				<li>360</li>
-				<li>359</li>
-				<li>380</li>
+			<ol type="a" class="questions quiz">
+				<li data-correct="false">1140</li>
+				<li data-correct="false">1142</li>
+				<li data-correct="false">1122</li>
+				<li data-correct="true">1143</li>
 			</ol>
 		</section>
 
 		<section class="q-6">
 			<h4>6. No número octal <span class="dc">643</span> qual é o dígito mais significativo significativo?</h4>
 
-			<ol type="a">
-				<li>6</li>
-				<li>4</li>
-				<li>3</li>
-				<li>Não há</li>
+			<ol type="a" class="questions quiz">
+				<li data-correct="true">6</li>
+				<li data-correct="false">4</li>
+				<li data-correct="false">3</li>
+				<li data-correct="false">Não há</li>
 			</ol>
 		</section>
 
-		<section class="resposta q-1">
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<p id="modal-text"></p>
+			</div>
+		</div>
+	
+
+		<section class="resposta q-1" >
 			<h4>1. Converta: </h4>
 			<br>
 			<ol type="a" class="resposta">
@@ -112,33 +121,6 @@
 						ㅤDivida 3 por 8. <br>
 						ㅤQuociente = 0, Resto = 3. <br>
 						ㅤPortanto, o número octal é <span class="dc">31</span></i>
-				</li>
-				<br>
-				<li>
-					Decimal 63 para octal: <br>
-					ㅤ<i>Divida 63 por 8. <br>
-						ㅤQuociente = 7, Resto = 7. <br>
-						ㅤPortanto, o número octal é <span class="dc">77</span></i>
-				</li>
-				<br>
-				<li>
-					Decimal 128 para octal: <br>
-					ㅤ<i>Divida 128 por 8. <br>
-						ㅤQuociente = 16, Resto = 0. <br>
-						ㅤDivida 16 por 8. <br>
-						ㅤQuociente = 2, Resto = 0. <br>
-						ㅤPortanto, o número octal é <span class="dc">200</span></i>
-				</li>
-				<br>
-				<li>
-					Decimal 512 para octal: <br>
-					ㅤ<i>Divida 512 por 8. <br>
-						ㅤQuociente = 64, Resto = 0. <br>
-						ㅤDivida 64 por 8. <br>
-						ㅤQuociente = 8, Resto = 0. <br>
-						ㅤDivida 8 por 8. <br>
-						ㅤQuociente = 1, Resto = 0. <br>
-						ㅤPortanto, o número octal é <span class="dc">1000</span></i>
 				</li>
 			</ol>
 		</section>
@@ -265,6 +247,7 @@
 			<input type="button" value="Enviar">
 		</form>
 	</footer>
+	<script src="index.js" ></script>
 </body>
 
 </html>

@@ -102,6 +102,12 @@ header nav ul li a:hover {
     margin-bottom: .6rem;
 }
 
+.p-vp > img {
+    width: 140px;
+    height: 160px;
+    border-radius: 100%;
+}
+
 
 .bi {
     color: #00BF63;
