@@ -10,7 +10,7 @@
 
 ## 🌐 Demonstração
 
-Para uma demonstração completa do projeto, acesse nosso site: [OctoFund Homepage]([link-para-o-site](https://lucascarv1804.github.io/octofund/homepage/index.html))
+Para uma demonstração completa do projeto, acesse nosso site: [OctoFund Homepage](https://lucascarv1804.github.io/octofund/homepage/index.html)
 
 ## 🔧 Funcionalidades
 
