@@ -10,7 +10,7 @@
 
 ## 🌐 Demonstração
 
-Para uma demonstração completa do projeto, acesse nosso site: [OctoFund Homepage](link-para-o-site)
+Para uma demonstração completa do projeto, acesse nosso site: [OctoFund Homepage]([link-para-o-site](https://lucascarv1804.github.io/octofund/homepage/index.html))
 
 ## 🔧 Funcionalidades
 
@@ -29,7 +29,7 @@ Sinta-se à vontade para contribuir com o projeto! Você pode fazer isso de vár
 
 ## 📫 Contato
 
-Se você tiver dúvidas ou precisar de mais informações, entre em contato conosco através do [e-mail de suporte](mailto:suporte@octofund.com).
+Se você tiver dúvidas ou precisar de mais informações, entre em contato conosco através do [e-mail de suporte](mailto:lucascarv1804@gmail.com).
 
 ---
 
